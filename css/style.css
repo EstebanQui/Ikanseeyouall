@@ -51,7 +51,7 @@ section:nth-child(7) {
   justify-content: flex-end;
 }
 .nav {
-  margin: 0 0 100px 30px;
+  margin: 0 0 0 30px;
 }
 .nav__counter {
   font-size: 24px;
@@ -107,11 +107,13 @@ section:nth-child(7) {
   background-color: transparent;
 }
 .nav li.active {
-  pointer-events: none;
   padding-left: 1em;
   display: flex;
   align-items: flex-start;
 }
+/* .nav li:not(.active){
+  pointer-events: none;
+}*/
 .nav li.active:after {
   width: 35px;
   height: 400px;
@@ -132,6 +134,10 @@ section:nth-child(7) {
 }
 
 .eyes {
-  width: 10%;
-  /*margin-bottom: 20px;*/
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.nav li .eyes:after {
+ width: 10%;
 }
