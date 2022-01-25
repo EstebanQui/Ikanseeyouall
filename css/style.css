@@ -19,6 +19,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column
 }
 section:nth-child(1) {
   background: white;
@@ -49,6 +50,7 @@ section:nth-child(7) {
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
+  z-index: 2;
 }
 .nav {
   margin: 0 0 0 30px;
@@ -138,6 +140,21 @@ section:nth-child(7) {
   margin-bottom: 20px;
 }
 
-.nav li .eyes:after {
- width: 10%;
+.video {
+height: 100%;
+width: 100%;
+object-fit: cover;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+}
+
+article {
+  display: flex;
+  align-items: baseline;
+}
+
+article h2 {
+  margin-right: 40px;
 }
