@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.78 699.78"><defs><style>.cls-1,.cls-3{fill:none;}.cls-1,.cls-2{stroke:#000;stroke-miterlimit:10;stroke-width:35px;}.cls-2{fill:#fff;}</style></defs><g id="Calque_2" data-name="Calque 2"><g id="Calque_9" data-name="Calque 9"><path class="cls-1" d="M585.57,226c0,130.17-105.52,235.69-235.68,235.69S114.2,356.13,114.2,226"/><line class="cls-2" x1="349.89" y1="461.65" x2="349.89" y2="598.41"/><line class="cls-2" x1="505.8" y1="408.36" x2="591.5" y2="514.94"/><line class="cls-2" x1="186.98" y1="408.36" x2="101.29" y2="514.94"/><rect class="cls-3" width="699.78" height="699.78"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 699.8 699.8" style="enable-background:new 0 0 699.8 699.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:35;stroke-miterlimit:10;}
+	.st1{fill:none;}
+</style>
+<g id="Calque_2_00000024686051499254529710000004602556056740421771_">
+	<g id="Calque_9">
+		<path class="st0" d="M585.6,226c0,130.2-105.5,235.7-235.7,235.7S114.2,356.1,114.2,226"/>
+		<line class="st0" x1="349.9" y1="461.6" x2="349.9" y2="598.4"/>
+		<line class="st0" x1="505.8" y1="408.4" x2="591.5" y2="514.9"/>
+		<line class="st0" x1="187" y1="408.4" x2="101.3" y2="514.9"/>
+		<rect class="st1" width="699.8" height="699.8"/>
+	</g>
+</g>
+</svg>

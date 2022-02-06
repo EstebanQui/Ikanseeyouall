@@ -17,8 +17,8 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Mekanın Sahibi",
-          artist: "Norm Ender",
+          name: "Koudlam",
+          artist: "Koudlam - See You all",
           cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
           source: "./music/KOUDLAM_-_See_You_All.mp3",
           url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
