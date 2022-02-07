@@ -30,7 +30,7 @@ section:nth-child(1) {
   background: white;
 }
 section:nth-child(2) {
-  background: #000;
+  /*background: rgb(111, 78, 163);*/
 }
 section:nth-child(3) {
   background: #000;
@@ -164,6 +164,31 @@ left: 0;
 right: 0;
 top: 0;
 bottom: 0;
+}
+
+
+/* Section 2 */
+.video2 {
+  height: 980px;
+  width: 100%;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.content { position:relative; }
+.content video {
+    position:relative;
+    z-index:0;
+}
+.overlay { 
+  position: absolute;   
+  bottom: 29%;
+  left: 42%;
+  z-index:1;
+  color: #fff;
 }
 
 article {

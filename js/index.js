@@ -15,9 +15,7 @@ $('a[href*=#]:not([href=#])').click(function() {
 });
 
 
-
-
-
+// Section 3 scroll text 
 
 $(document).ready(function() {
     var containers = $('.container');
@@ -111,7 +109,7 @@ $(document).ready(function() {
     }
 });
 
-
+// Section 4 Size text modified
 
 /* Input */
 let inputSize = document.querySelector(".inputsize");
