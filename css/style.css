@@ -217,6 +217,7 @@ article h2 {
 
 input[type=range]{
   -webkit-appearance: none;
+  cursor: pointer;
 }
 
 input[type=range]::-webkit-slider-runnable-track {
