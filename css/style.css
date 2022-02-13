@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    cursor: url(../img/smiley_cursor.cur), pointer;
 }
 
 @font-face {
@@ -37,9 +38,9 @@ section:nth-child(3) {
 }
 section:nth-child(4) {
   background: #000;
-  height: 140vh;
-  display: flex;
-  justify-content: center;
+  background-image: url(../img/Alphabet.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 section:nth-child(5) {
   background: #000;
@@ -49,9 +50,16 @@ section:nth-child(5) {
 }
 section:nth-child(6) {
   background: #000;
+  background-image: url(../img/Sticker_tester.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 section:nth-child(7) {
   background: #000;
+  background-image: url(../img/BG_musique.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 section:nth-child(8) {
   height: 158vh;
@@ -178,10 +186,15 @@ bottom: 0;
   bottom: 0;
 }
 
-.content { position:relative; }
+.content { 
+  position:relative; 
+  width: 100%;
+}
+
 .content video {
-    position:relative;
-    z-index:0;
+  position:relative;
+  z-index:0;
+  height: 900px;
 }
 .overlay { 
   position: absolute;   
@@ -200,31 +213,37 @@ article h2 {
   margin-right: 40px;
 }
 
+/*Section 4 */
 
-/* SECTION 3 ANIMATION */
-.container {
-  position: relative;
-  overflow: hidden;
+input[type=range]{
+  -webkit-appearance: none;
 }
 
-.scrolling-text {
-  display: inline-block;
-  transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.28, 0.83);
-  will-change: transform;
-  backface-visibility: hidden;
+input[type=range]::-webkit-slider-runnable-track {
+  width: 300px;
+  height: 5px;
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
 }
 
-.scrolling-text .scrolling-text-content {
-  color: #fff;
-  font-size: 101px;
-  white-space: nowrap;
-  transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.28, 0.83);
-  line-height: 1em;
-  /*margin: 50px 0;*/
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: goldenrod;
+  margin-top: -4px;
 }
 
+input[type=range]:focus {
+  outline: none;
+}
 
-
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ccc;
+}
 
 /*SECTION 5 TEXT CHANGE */
 .textarea {
